@@ -1,35 +1,23 @@
 import React from 'react';
-import { Routes, Route, Navigate  } from 'react-router-dom';
-import Navbar from '../navbar';
-import Header from '../header';
-import Home from '../home';
-import Footer from '../footer';
-import Skills from '../skills';
-import Projects from '../projects';
-import Contact from '../contact';
-// import styles from './app.module.css';
+import NavBar from '../Navbar';
+import About from '../About';
+import Footer from '../Footer';
+import Skills from '../Skills';
+import Projects from '../Projects';
+import Contact from '../Contact';
+import styles from './layout.module.css';
 
-function App() {
+const Layout = () => {
   return (
-    <div>
-      <Header />
-      <div>
-        <div>
-          <Navbar />
-        </div>
-        <div>
-          <Routes>
-            <Route exact path="/home" element={<Home />} />
-            <Route exact path="/skills" element={<Skills />}  />
-            <Route exact path="/projects" element={<Projects />} />
-            <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/" element={<Navigate replace to="/home" />} />
-          </Routes>
-        </div>
-      </div>
+    <main className={styles.container}>
+      <NavBar />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
       <Footer />
-    </div>
+    </main>
   );
-}
+};
 
-export default App;
+export default Layout;

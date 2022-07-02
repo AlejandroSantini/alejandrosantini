@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.container h4 {
+    padding: 7px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container ul li {
+    width: 250px;
+    padding: 9px;
+    margin: 6px;
+    border-radius: 3px;
+    background: #131C28;
+    text-align: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+.container ul li:hover {
+    background-color: #ffffff50;
+    color: #131c28;
+}
+

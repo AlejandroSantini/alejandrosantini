@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background: #131C28;
+    color: #ffffff;
+}
+
+.container ul {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.container ul li {
+    transition: font-weight .0,5s;
+}
+
+.container ul li:last-child {
+    padding: 4px;
+    border-radius: 2px;
+    background: #ffffff;
+    color: #0E3569;
+}
