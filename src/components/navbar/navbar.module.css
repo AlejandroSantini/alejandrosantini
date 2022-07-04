@@ -8,12 +8,12 @@
     width: 100%;
     padding-left: 7%;
     padding-right: 7%;
-    background: #131C28;
-    color: #ffffff;
+    background: #343434;
+    color: #9B9B9B;
 }
 
 .container ul {
-    width: 270px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,12 +21,23 @@
 }
 
 .container ul li {
+    cursor: pointer;
     transition: font-weight .0,5s;
 }
 
 .container ul li:last-child {
-    padding: 4px;
+    padding: 6px;
     border-radius: 2px;
-    background: #ffffff;
-    color: #0E3569;
+    background: #cc7462;
+    color: #343434;
+}
+
+.navbarName {
+    cursor: default;
+    font-weight: bold;
+}
+
+.navbarIcon {
+    padding-right: 2px;
+    color: #cc7462;
 }

@@ -1,6 +1,8 @@
+import styles from './contact.module.css';
+
 const Contact = () => {
   return (
-    <section className="contact">
+    <section id="contact" className={styles.container}>
       <p>Contacts</p>
     </section>
   );

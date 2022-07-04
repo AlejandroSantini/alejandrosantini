@@ -9,15 +9,38 @@
     padding-right: 13%;
 }
 
-.container p {
-    min-width: 300px;
-    font-size: 25px;
-    padding-left: 30px;
+.container div {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin: 0% 2%;
+    align-items: center;
 }
+
+.container p {
+    font-size: 23px;
+}
+
+.container h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
 
 .container img {
     width: 250px;
+    margin: 0% 2%;
     padding-top: 40px;
     padding-bottom: 30px;
-    border-radius: 50%;
+}
+
+.container a {
+    padding: 8px;
+    margin-top: 4%;
+    border-radius: 2px;
+    font-weight: 600;
+    text-decoration: none;
+    background: #cc7462;
+    color: #343434;
 }

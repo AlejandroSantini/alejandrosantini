@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+}
+
+.container p {
+    font-style: oblique;
+    font-size: 14px;
+}
+
+.container div {
+    padding: 0.3%;
+}
+
+.container a {
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+    color: #cc7462;
+    font-size: 32px;
+}
+
+.container span {
+    font-weight: bold;
+}

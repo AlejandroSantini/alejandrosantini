@@ -1,14 +1,20 @@
-import img from '../../assets/images/alejandrosantini.png';
+import img from '../../assets/images/alejandrosantini2.png';
 import styles from './about.module.css';
 
 const AboutMe = () => {
   return (
     <section id="aboutMe" className={styles.container}>
       <img src={img} alt="Alejandro santini photo" />
-      <p>
-        I am 22 years old. I am passionate about technology. I like challenges and I am willing to
-        learn any new tool to grow in software development.
-      </p>
+      <div>
+        <h4>Software Developer</h4>
+        <p>
+          Information Systems Engineering student. I am passionate about technology. I like
+          challenges and want learn any new tool to improve in software development.
+        </p>
+        <a href={'../../assets/docs/Alejandro-Santini-CV.pdf'} download="Alejandro Santini CV.pdf">
+          Download CV
+        </a>
+      </div>
     </section>
   );
 };

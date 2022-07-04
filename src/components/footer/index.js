@@ -1,11 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import styles from './footer.module.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Programmed by Alejandro Santini</p>
-      <div className="social-media">
+    <footer className={styles.container}>
+      <p>
+        Programmed by <span>Alejandro Santini</span>
+      </p>
+      <div>
         <a href="https://www.linkedin.com/in/santinialejandro">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>

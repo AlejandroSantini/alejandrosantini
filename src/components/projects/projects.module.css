@@ -1,0 +1,51 @@
+.container {
+    padding-top: 5%;
+}
+
+.container h3 {
+    padding: 7px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: justify;
+    width: 340px;
+    height: 190px;
+    padding: 10px;
+    margin: 1%;
+    /* filter: blur(6px); */
+    border-radius: 4px;
+    background-color: rgb(139, 139, 139);
+    color: #343434;
+}
+
+.container a {
+    padding: 8px;
+    margin-top: 4%;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    background: #cc7462;
+    color: #343434;
+}
+
+.container div   {
+    /* background: url(../../assets/images/screen3example.png); */
+}
+
+.container {
+
+}

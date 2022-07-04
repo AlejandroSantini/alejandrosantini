@@ -9,8 +9,7 @@ const Skills = () => {
           <li>English Pre-Intermediate</li>
           <li>Scrum</li>
           <li>Trello</li>
-          <li>Adobe XD</li>
-          <li>Astah</li>
+          <li>Figma</li>
           <li>Git/GitHub</li>
           <li>HTML</li>
           <li>CSS</li>
