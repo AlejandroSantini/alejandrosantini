@@ -25,6 +25,10 @@
     transition: font-weight .0,5s;
 }
 
+.active {
+    border-bottom: 1px solid #333;
+}
+
 .container ul li:last-child {
     padding: 6px;
     border-radius: 2px;
