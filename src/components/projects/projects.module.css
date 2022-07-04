@@ -19,7 +19,7 @@
 .container div > div {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: justify;
     width: 340px;
     height: 190px;
