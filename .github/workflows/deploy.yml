@@ -1,0 +1,24 @@
+name: Deploy react app
+on:
+  push:
+    - main
+jobs:
+  deploy:
+    nae: deploy app
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ "16.8.0" ]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{matrix.node-version}}
+      - name: registry github user
+        run: |
+          git config --global user.email alejandro.j.santini@gmail.com
+          git config --global user.name Alejandro
+      - name: deploy the app
+        run: npm run deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
