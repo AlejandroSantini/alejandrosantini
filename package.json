@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alejandrosantini.github.io/alejandrosantini.com.ar",
+  "homepage": "https://alejandrosantini.github.io/alejandrosantini.com.ar#readme",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
