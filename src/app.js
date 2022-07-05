@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route exact path="/home" element={<Layout />} />
+        <Route exact path="/home" element={<Layout />} basename={process.env.PUBLIC_URL} />
         <Route exact path="/" element={<Navigate replace to="/home" />} />
       </Routes>
     </div>
