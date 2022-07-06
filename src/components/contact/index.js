@@ -5,10 +5,10 @@ import styles from './contact.module.css';
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const onSubmitHandler = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY').then(
+    emailjs.sendForm('service_k5ahq4d', 'template_d0wd0aj', form.current, '-uEa-sDUJesze0iOi').then(
       (result) => {
         console.log(result.text);
       },
@@ -21,9 +21,9 @@ const Contact = () => {
   return (
     <section id="contact" className={styles.container}>
       <h4>Contact Me</h4>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={onSubmitHandler}>
         <label>Name</label>
-        <input type="text" name="user_name" placeholder="Name" />
+        <input type="text" name="user_name" placeholder="FullName" />
         <label>Email</label>
         <input type="email" name="user_email" placeholder="example@gmail.com" />
         <label>Message</label>
