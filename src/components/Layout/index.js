@@ -1,9 +1,9 @@
 import React from 'react';
-import NavBar from '../mayusnavbar';
+import NavBar from '../Navbar';
 import About from '../About';
-import Footer from '../mayusfooter';
-import Skills from '../mayusskills';
-import Projects from '../mayusprojects';
+import Footer from '../Footer';
+import Skills from '../Skills';
+import Projects from '../Projects';
 import Contact from '../mayuscontact';
 import styles from './layout.module.css';
 
