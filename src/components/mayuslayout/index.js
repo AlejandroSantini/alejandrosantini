@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from '../Navbar';
+import NavBar from '../mayusnavbar';
 import About from '../About';
-import Footer from '../Footer';
-import Skills from '../Skills';
-import Projects from '../Projects';
-import Contact from '../Contact';
+import Footer from '../mayusfooter';
+import Skills from '../mayusskills';
+import Projects from '../mayusprojects';
+import Contact from '../mayuscontact';
 import styles from './layout.module.css';
 
 const Layout = () => {
