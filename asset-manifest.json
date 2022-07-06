@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/alejandrosantini.com.ar/static/css/main.d3be07dd.css",
+    "main.js": "/alejandrosantini.com.ar/static/js/main.b6915b30.js",
+    "static/media/alejandrosantini2.png": "/alejandrosantini.com.ar/static/media/alejandrosantini2.9b434c54671467be0369.png",
+    "index.html": "/alejandrosantini.com.ar/index.html",
+    "main.d3be07dd.css.map": "/alejandrosantini.com.ar/static/css/main.d3be07dd.css.map",
+    "main.b6915b30.js.map": "/alejandrosantini.com.ar/static/js/main.b6915b30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3be07dd.css",
+    "static/js/main.b6915b30.js"
+  ]
+}
