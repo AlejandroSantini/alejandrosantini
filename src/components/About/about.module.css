@@ -19,6 +19,7 @@
 }
 
 .container p {
+    margin-top: 5%;
     font-size: 21px;
 }
 
@@ -26,34 +27,43 @@
     color: #cc7462;
 }
 
-.container h4 {
-    white-space: nowrap;
-    font-weight: normal;
-    font-family: consolas, monospace;
-    font-size: 163%;
-    margin-bottom: 5%;
+.containerH4 {
     background-color: #0f0f0f;
     border: solid 1px #353535;
     border-radius: 3px;
     padding: 8px;
 }
 
-/* .typewriter {
+.container h4 {
     overflow: hidden;
+    text-align: left;
+    box-sizing: border-box;
     white-space: nowrap;
-    animation: typewriter 2.8s steps(23, end);
-    white-space: nowrap;
-} */
+    font-weight: normal;
+    font-family: consolas, monospace;
+    font-size: 153%;
+}
 
-/* @keyframes typewriter {
+.background {
+    background-color: #0f0f0f;
+}
+
+.typewriter {
+    display: inline-block;
+    white-space: nowrap;
+    width: 18ch;
+    animation: typing 3s steps(18) 1s infinite normal both;
+    white-space: nowrap;
+}
+
+@keyframes typing {
     from {
         width: 0;
     }
-
     to {
-        width: 200px;
+        width: 18ch;
     }
-} */
+}
 
 .intermittent {
     animation: intermittent 1s steps(1) infinite;
