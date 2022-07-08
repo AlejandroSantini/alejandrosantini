@@ -26,7 +26,7 @@
 }
 
 .active {
-    border-bottom: 1px solid #333;
+    color: #cc7462;
 }
 
 .container ul li:last-child {
@@ -44,4 +44,15 @@
 .navbarIcon {
     padding-right: 2px;
     color: #cc7462;
+}
+
+.container ul li:hover {
+    color: #cc746281;
+}
+
+.container ul li:last-child:hover {
+    box-shadow: 0px 4px 8px #2b2b2b;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    color: #343434;
 }

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import styles from './projects.module.css';
 
 const Projects = () => {
@@ -7,34 +7,48 @@ const Projects = () => {
     <section id="projects" className={styles.container}>
       <h3>Projects</h3>
       <div>
-        <div>
-          <h4>Trackgenix</h4>
-          <p>This project was each project and work team.</p>
+        <a
+          href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views"
+          className={styles.containerProject}
+        >
           <a href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views">
-            See Project <FontAwesomeIcon icon={faArrowRight} />
+            <FontAwesomeIcon icon={faCode} />
           </a>
-        </div>
-        <div>
-          <h4>Trackgenix</h4>
-          <p>idaosidas asiaosda asodaosda sododd</p>
+          <div className={styles.containerText}>
+            <h4>Landing Trackgenix</h4>
+            <p>My first project with html, css and javascript.</p>
+          </div>
+        </a>
+        <a className={styles.containerProject}>
+          <a href="https://github.com/BaSP-m2022/samuel-trackgenix-server">
+            <FontAwesomeIcon icon={faCode} />
+          </a>
+          <div className={styles.containerText}>
+            <h4>Trackgenix Server</h4>
+            <p>It was done as a team (agile methodologies).</p>
+          </div>
+        </a>
+        <a href="https://franco-trackgenix-app.vercel.app/home" className={styles.containerProject}>
+          <a href="https://github.com/BaSP-m2022/franco-trackgenix-app">
+            <FontAwesomeIcon icon={faCode} />
+          </a>
+          <div className={styles.containerText}>
+            <h4>Trackgenix App</h4>
+            <p>It was done as a team (agile methodologies).</p>
+          </div>
+        </a>
+        <a
+          href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views"
+          className={styles.containerProject}
+        >
           <a href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views">
-            See Project <FontAwesomeIcon icon={faArrowRight} />
+            <FontAwesomeIcon icon={faCode} />
           </a>
-        </div>
-        <div>
-          <h4>Trackgenix</h4>
-          <p>lorem hola nada que ver este texto es para probar</p>
-          <a href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views">
-            See Project <FontAwesomeIcon icon={faArrowRight} />
-          </a>
-        </div>
-        <div>
-          <h4>Trackgenix</h4>
-          <p>idaosidas asiaosda testeando paaa alta paginita me estoy mandando perro</p>
-          <a href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views">
-            See Project <FontAwesomeIcon icon={faArrowRight} />
-          </a>
-        </div>
+          <div className={styles.containerText}>
+            <h4>Callculator App</h4>
+            <p>Fully functional calculator app.</p>
+          </div>
+        </a>
       </div>
     </section>
   );

@@ -4,7 +4,8 @@
 
 .container p {
     font-style: oblique;
-    font-size: 14px;
+    font-size: 70%;
+    padding-bottom: 0.7%;
 }
 
 .container div {
@@ -15,7 +16,7 @@
     padding-left: 0.6%;
     padding-right: 0.6%;
     color: #cc7462;
-    font-size: 32px;
+    font-size: 175%;
 }
 
 .container span {

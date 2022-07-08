@@ -9,14 +9,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className={styles.container}>
-        <Link
-          to={'aboutMe'}
-          activeClass={styles.active}
-          spy={true}
-          smooth={true}
-          duration={500}
-          className={styles.navbarName}
-        >
+        <Link to={'aboutMe'} spy={true} smooth={true} duration={500} className={styles.navbarName}>
           <FontAwesomeIcon className={styles.navbarIcon} icon={faBoltLightning} /> Alejandro Santini
         </Link>
         {/* <div onClick={handleClick}>
