@@ -6,7 +6,12 @@ const AboutMe = () => {
     <section id="aboutMe" className={styles.container}>
       <img src={img} alt="Alejandro santini photo" />
       <div>
-        <h4>Software Developer</h4>
+        <h4>
+          C:\{'>'}
+          Software Developer
+          {/* <span className={styles.typewriter}>Software Developer</span> */}
+          <span className={styles.intermittent}>_</span>
+        </h4>
         <p>
           Information Systems Engineering student. I am passionate about technology. I like
           challenges and want learn any new tool to improve in software development.

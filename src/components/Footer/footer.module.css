@@ -3,9 +3,14 @@
 }
 
 .container p {
-    font-style: oblique;
-    font-size: 70%;
-    padding-bottom: 0.7%;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #0f0f0f;
+    border: solid 1px #353535;
+    font-family: consolas, monospace;
+    font-size: 72%;
+    margin-bottom: 0.7%;
 }
 
 .container div {
@@ -21,4 +26,12 @@
 
 .container span {
     font-weight: bold;
+}
+
+.intermittent {
+    animation: intermittent 1s steps(1) infinite;
+  }
+
+  @keyframes intermittent {
+    50% { color: transparent; }
 }

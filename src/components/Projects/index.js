@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faCodeMerge } from '@fortawesome/free-solid-svg-icons';
 import styles from './projects.module.css';
 
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
-      <h3>Projects</h3>
+      <h3>
+        Projects <FontAwesomeIcon className={styles.icon} icon={faCodeMerge} />
+      </h3>
       <div>
         <a
           href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views"

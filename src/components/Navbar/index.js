@@ -1,7 +1,5 @@
 //import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faBoltLightning } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 import styles from './navbar.module.css';
 
@@ -10,7 +8,7 @@ const NavBar = () => {
     <nav>
       <div className={styles.container}>
         <Link to={'aboutMe'} spy={true} smooth={true} duration={500} className={styles.navbarName}>
-          <FontAwesomeIcon className={styles.navbarIcon} icon={faBoltLightning} /> Alejandro Santini
+          Alejandro Santini
         </Link>
         {/* <div onClick={handleClick}>
           <FontAwesomeIcon icon={click ? faTimes : faBars} />
@@ -53,14 +51,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to={'contact'}
-              activeClass={styles.active}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <Link to={'contact'} spy={true} smooth={true} offset={-70} duration={500}>
               Contact
             </Link>
           </li>

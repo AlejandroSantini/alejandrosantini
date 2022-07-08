@@ -38,12 +38,7 @@
 
 .navbarName {
     cursor: default;
-    font-weight: bold;
-}
-
-.navbarIcon {
-    padding-right: 2px;
-    color: #cc7462;
+    font-weight: 600;
 }
 
 .container ul li:hover {

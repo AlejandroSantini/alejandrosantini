@@ -6,7 +6,8 @@ const Footer = () => {
   return (
     <footer className={styles.container}>
       <p>
-        Programmed by <span>Alejandro Santini</span>
+        C:\<span>{'>'}</span>Programmed by <span>Alejandro Santini</span>
+        <span className={styles.intermittent}>_</span>
       </p>
       <div>
         <a href="https://www.linkedin.com/in/santinialejandro">

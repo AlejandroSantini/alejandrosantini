@@ -6,9 +6,13 @@
 }
 
 .container h4 {
-    padding: 7px;
+    padding: 5% 2.5% 2.5% 2.5%;
     text-align: center;
-    font-size: 22px;
+    font-size: 160%;
+}
+
+.icon {
+    color: #cc7462;
 }
 
 .container ul {
@@ -46,7 +50,7 @@
 
 @media only screen and (min-width: 1700px) {
     .container {
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }

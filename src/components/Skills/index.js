@@ -1,10 +1,14 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faScrewdriverWrench, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import styles from './skills.module.css';
 
 const Skills = () => {
   return (
     <section id="skills" className={styles.container}>
       <div>
-        <h4>Hard Skills</h4>
+        <h4>
+          Hard Skills <FontAwesomeIcon className={styles.icon} icon={faScrewdriverWrench} />
+        </h4>
         <ul>
           <li>English Pre-Intermediate</li>
           <li>Scrum, Trello, Astah, Office Package </li>
@@ -17,7 +21,9 @@ const Skills = () => {
         </ul>
       </div>
       <div>
-        <h4>Soft Skills</h4>
+        <h4>
+          Soft Skills <FontAwesomeIcon className={styles.icon} icon={faPeopleGroup} />
+        </h4>
         <ul>
           <li>Capacity for Teamwork</li>
           <li>Adaptability and Flexibility</li>
