@@ -11,6 +11,13 @@
     font-size: 160%;
 }
 
+.container p {
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-size: 14px;
+    color: #e01616;
+}
+
 .container span {
     color: #cc7462;
 }
@@ -29,7 +36,6 @@
 
 .container input {
     padding: 10px;
-    margin-bottom: 4%;
     border: 0;
     border-radius: 3px;
     border: 1px solid #464646;
@@ -38,9 +44,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+.container p {
+    color: #e01616;
+}
+
 .container textarea {
     padding: 10px 10px 35px 10px;
-    margin-bottom: 5%;
     border: 0;
     resize: none;
     border-radius: 3px;
