@@ -10,10 +10,10 @@ const Projects = () => {
       </h3>
       <div>
         <a
-          href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views"
+          href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/Semana-07/views/"
           className={styles.containerProject}
         >
-          <a href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views">
+          <a href="https://github.com/AlejandroSantini/BaSP-M2022-Etapa-1">
             <FontAwesomeIcon icon={faCode} />
           </a>
           <div className={styles.containerText}>
@@ -39,16 +39,13 @@ const Projects = () => {
             <p>It was done as a team (agile methodologies).</p>
           </div>
         </a>
-        <a
-          href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views"
-          className={styles.containerProject}
-        >
-          <a href="https://alejandrosantini.github.io/BaSP-M2022-Etapa-1/semana-07/views">
+        <a href="https://alejandrosantini.com.ar" className={styles.containerProject}>
+          <a href="https://github.com/AlejandroSantini/alejandrosantini.com.ar">
             <FontAwesomeIcon icon={faCode} />
           </a>
           <div className={styles.containerText}>
-            <h4>Callculator App</h4>
-            <p>Fully functional calculator app.</p>
+            <h4>Personal Website</h4>
+            <p>Portfolio to show projects and skills.</p>
           </div>
         </a>
       </div>

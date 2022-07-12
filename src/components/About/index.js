@@ -19,7 +19,7 @@ const AboutMe = () => {
           Information Systems Engineering student. I am passionate about technology. I like
           challenges and want learn any new tool to improve in software development.
         </p>
-        <a href={'../../assets/docs/Alejandro-Santini-CV.pdf'} download="Alejandro Santini CV.pdf">
+        <a href={'/AlejandroSantiniCV.pdf'} download="Alejandro Santini CV.pdf">
           Download CV
         </a>
       </div>
