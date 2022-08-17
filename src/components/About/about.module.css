@@ -98,3 +98,10 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    .container a {
+        font-size: 20px;
+        padding: 3%;
+    }
+}

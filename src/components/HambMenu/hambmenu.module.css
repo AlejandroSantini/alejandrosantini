@@ -4,19 +4,24 @@
 
 .containerHamb .menu {
     right: 0;
-    width: 150px;
     background-color: #343434;
     padding-bottom: 22px;
-    padding-top: 5px;
+    padding-top: 4px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.containerHamb .menu li:last-child {
+    padding: 8px;
 }
 
 .containerHamb .menu li:nth-child(1), .containerHamb .menu li:nth-child(2), .containerHamb .menu li:nth-child(3){
     width: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .containerHamb .menu li:nth-child(4) {
     margin-top: 7px;
+    margin-bottom: 6px;
 }
 
 @keyframes moveMenu {
@@ -25,16 +30,20 @@
     0% {right: -100%; }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
+    .containerHamb .menu ul{
+        min-width: 100%;
+    }
 
     .containerHamb {
         background-color: #343434;
         display: block;
         position: fixed;
         top: 5px;
+        font-size: 30px;
     }
 
-    .containerHamb .containerHamb > div {
+    .containerHamb > div {
         position: fixed;
         animation-name: moveMenu;
         animation-duration: 0.5s;

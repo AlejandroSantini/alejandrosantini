@@ -54,11 +54,8 @@
 }
 
 @media (max-width: 600px) {
-    .container {
-        flex-direction: row-reverse;
-    }
-
     .container .links {
+        left: 0px;
         display: none;
     }
 

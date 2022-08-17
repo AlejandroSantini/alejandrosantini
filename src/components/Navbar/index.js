@@ -6,10 +6,10 @@ const NavBar = () => {
   return (
     <nav>
       <div className={styles.container}>
+        <HambMenu />
         <Link to={'aboutMe'} spy={true} smooth={true} duration={500} className={styles.navbarName}>
           Alejandro Santini
         </Link>
-        <HambMenu />
         <ul className={styles.links}>
           <li>
             <Link
