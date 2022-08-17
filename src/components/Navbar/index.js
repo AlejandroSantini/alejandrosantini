@@ -1,6 +1,5 @@
-//import React, { useState, useEffect } from 'react';
-//import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
+import HambMenu from '../HambMenu';
 import styles from './navbar.module.css';
 
 const NavBar = () => {
@@ -10,17 +9,15 @@ const NavBar = () => {
         <Link to={'aboutMe'} spy={true} smooth={true} duration={500} className={styles.navbarName}>
           Alejandro Santini
         </Link>
-        {/* <div onClick={handleClick}>
-          <FontAwesomeIcon icon={click ? faTimes : faBars} />
-        </div> */}
-        <ul>
+        <HambMenu />
+        <ul className={styles.links}>
           <li>
             <Link
               to={'aboutMe'}
               activeClass={styles.active}
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={0}
               duration={500}
             >
               Home
@@ -32,7 +29,7 @@ const NavBar = () => {
               activeClass={styles.active}
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={40}
               duration={500}
             >
               Skills
@@ -44,14 +41,14 @@ const NavBar = () => {
               activeClass={styles.active}
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={0}
               duration={500}
             >
               Projects
             </Link>
           </li>
           <li>
-            <Link to={'contact'} spy={true} smooth={true} offset={-70} duration={500}>
+            <Link to={'contact'} spy={true} smooth={true} offset={0} duration={500}>
               Contact
             </Link>
           </li>

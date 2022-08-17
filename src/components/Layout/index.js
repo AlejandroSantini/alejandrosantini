@@ -5,12 +5,14 @@ import Footer from '../Footer';
 import Skills from '../Skills';
 import Projects from '../Projects';
 import Contact from '../Contact';
+import HambMenu from '../HambMenu';
 import styles from './layout.module.css';
 
 const Layout = () => {
   return (
     <main className={styles.container}>
       <NavBar />
+      <HambMenu />
       <About />
       <Skills />
       <Projects />

@@ -52,3 +52,17 @@
     transition: all 0.2s ease-in-out;
     color: #343434;
 }
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: row-reverse;
+    }
+
+    .container .links {
+        display: none;
+    }
+
+    .container {
+        padding: 0% 4%;
+    }
+}

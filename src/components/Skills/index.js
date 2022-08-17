@@ -11,13 +11,15 @@ const Skills = () => {
         </h4>
         <ul>
           <li>English Pre-Intermediate</li>
-          <li>Scrum, Trello, Astah, Office Package </li>
-          <li>Figma, Adobe Xd</li>
-          <li>Git, GitHub</li>
-          <li>HTML, CSS, Javascript</li>
-          <li>Node.js, NPM, Express.js, JOI</li>
-          <li>API REST, Postman, Mongo DB, Jest</li>
+          <li>Javascript</li>
           <li>React.js + Router, Redux, Forms</li>
+          <li>HTML, CSS</li>
+          <li>Node.js, NPM, Express.js, JOI</li>
+          <li>API REST, Postman, Jest</li>
+          <li>Mongo DB</li>
+          <li>Git, GitHub</li>
+          <li>Scrum, Trello, Astah</li>
+          <li>Figma, Adobe Xd</li>
         </ul>
       </div>
       <div>
@@ -25,14 +27,12 @@ const Skills = () => {
           Soft Skills <FontAwesomeIcon className={styles.icon} icon={faPeopleGroup} />
         </h4>
         <ul>
-          <li>Capacity for Teamwork</li>
+          <li>Capacity for collaboration</li>
+          <li>Teamwork</li>
           <li>Adaptability and Flexibility</li>
           <li>Communication</li>
           <li>Productivity and Organization</li>
-          <li>Creativity</li>
-          <li>Responsibility</li>
-          <li>Constancy</li>
-          <li>Agile Methodologies</li>
+          <li>Creativity and innovation</li>
         </ul>
       </div>
     </section>
