@@ -10,7 +10,7 @@ const Skills = () => {
           Hard Skills <FontAwesomeIcon className={styles.icon} icon={faScrewdriverWrench} />
         </h4>
         <ul>
-          <li>English Pre-Intermediate</li>
+          <li>English B1 Intermediate</li>
           <li>Javascript</li>
           <li>React.js + Router, Redux, Forms</li>
           <li>HTML, CSS</li>
@@ -18,7 +18,7 @@ const Skills = () => {
           <li>API REST, Postman, Jest</li>
           <li>Mongo DB</li>
           <li>Git, GitHub</li>
-          <li>Scrum, Trello, Astah</li>
+          <li>Vue.js</li>
           <li>Figma, Adobe Xd</li>
         </ul>
       </div>
@@ -27,7 +27,7 @@ const Skills = () => {
           Soft Skills <FontAwesomeIcon className={styles.icon} icon={faPeopleGroup} />
         </h4>
         <ul>
-          <li>Capacity for collaboration</li>
+          <li>Agile Methodologies (Scrum)</li>
           <li>Teamwork</li>
           <li>Adaptability and Flexibility</li>
           <li>Communication</li>
