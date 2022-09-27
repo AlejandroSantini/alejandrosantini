@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8fe8f21.css",
-    "main.js": "/static/js/main.3fde9cc7.js",
+    "main.css": "/static/css/main.b88db5c2.css",
+    "main.js": "/static/js/main.95e31e0e.js",
     "static/media/landingtrackgenix.gif": "/static/media/landingtrackgenix.d995574894a7a4f337a5.gif",
     "static/media/portfolio.gif": "/static/media/portfolio.46d296ccf5ceb008aa43.gif",
     "static/media/trackgenixserver.gif": "/static/media/trackgenixserver.2c8654e0b84e78e32db0.gif",
     "static/media/trackgenixapp.gif": "/static/media/trackgenixapp.5be26eb4e9f1e84f25cb.gif",
-    "static/media/alejandrosantini2.png": "/static/media/alejandrosantini2.9b434c54671467be0369.png",
+    "static/media/taskapp.gif": "/static/media/taskapp.42eb7844cccff500f329.gif",
+    "static/media/developer.png": "/static/media/developer.54beee6e537819e2acbe.png",
     "index.html": "/index.html",
-    "main.d8fe8f21.css.map": "/static/css/main.d8fe8f21.css.map",
-    "main.3fde9cc7.js.map": "/static/js/main.3fde9cc7.js.map"
+    "main.b88db5c2.css.map": "/static/css/main.b88db5c2.css.map",
+    "main.95e31e0e.js.map": "/static/js/main.95e31e0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8fe8f21.css",
-    "static/js/main.3fde9cc7.js"
+    "static/css/main.b88db5c2.css",
+    "static/js/main.95e31e0e.js"
   ]
 }
