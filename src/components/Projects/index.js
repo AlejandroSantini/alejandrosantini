@@ -27,7 +27,7 @@ const Projects = () => {
           </a>
           <div className={styles.containerText}>
             <h4>Trackgenix Server</h4>
-            <p>It was done as a team (agile methodologies).</p>
+            <p>It was done as a team with agile methodologies (Node.js, Express.js, MongoDB).</p>
           </div>
         </a>
         <a href="https://franco-trackgenix-app.vercel.app/home" className={styles.containerProject}>
@@ -36,7 +36,7 @@ const Projects = () => {
           </a>
           <div className={styles.containerText}>
             <h4>Trackgenix App</h4>
-            <p>It was done as a team (agile methodologies).</p>
+            <p>It was done as a team with agile methodologies (React.js + Redux).</p>
           </div>
         </a>
         <a href="https://alejandrosantini.com.ar" className={styles.containerProject}>
@@ -45,7 +45,16 @@ const Projects = () => {
           </a>
           <div className={styles.containerText}>
             <h4>Personal Website</h4>
-            <p>Portfolio to show projects and skills.</p>
+            <p>Portfolio to show projects and skills (React.js).</p>
+          </div>
+        </a>
+        <a className={styles.containerProject}>
+          <a href="https://github.com/AlejandroSantini/task-list">
+            <FontAwesomeIcon icon={faCode} />
+          </a>
+          <div className={styles.containerText}>
+            <h4>Tasks List</h4>
+            <p>Mobile app to add and delete tasks (React Native)</p>
           </div>
         </a>
       </div>

@@ -1,10 +1,10 @@
-import img from '../../assets/images/alejandrosantini2.png';
+import img from '../../assets/images/developer.png';
 import styles from './about.module.css';
 
 const AboutMe = () => {
   return (
     <section id="aboutMe" className={styles.container}>
-      <img src={img} alt="Alejandro santini photo" />
+      <img src={img} alt="Developer image" />
       <div>
         <div className={styles.containerH4}>
           <h4>
@@ -16,8 +16,8 @@ const AboutMe = () => {
           </h4>
         </div>
         <p>
-          Information Systems Engineering student. Passionate about technology. I like challenges
-          and want to learn new tools to improve in software development.
+          I am <span>Alejandro Santini</span>. Information Systems Engineering student. Passionate
+          about technology. I like challenges and want to learn new tools to improve in development.
         </p>
         <a href={'/AlejandroSantiniCV.pdf'} download="Alejandro Santini CV.pdf">
           Download CV

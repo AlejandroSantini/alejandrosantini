@@ -1,5 +1,5 @@
 .container {
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
 .container h3 {
@@ -9,7 +9,7 @@
 }
 
 .icon {
-    color: #cc7462;
+    color: #E35C39;
 }
 
 .container > div {
@@ -32,7 +32,12 @@
 
 .containerProject:nth-child(4) {
     background: no-repeat center/105% url("../../assets/images/portfolio.gif");
-    color: #9B9B9B;
+    color: #D0D0D0;
+}
+
+.containerProject:nth-child(5) {
+    background: no-repeat center/105% url("../../assets/images/taskapp.gif");
+    color: #D0D0D0;
 }
 
 .containerProject {
@@ -47,7 +52,7 @@
     height: 190px;
     margin: 5px;
     border-radius: 4px;
-    color: #343434;
+    color: #141C24;
 }
 
 .containerText {
@@ -68,8 +73,8 @@
     border-radius: 3px;
     text-align: center;
     font-weight: 600;
-    background: #343434;
-    color: #9B9B9B;
+    background: #141C24;
+    color: #E35C39;
 }
 
 .containerProject p {
@@ -82,8 +87,8 @@
     transform: scale(1.035);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-    background: #62cc74;
-    color: #343434;
+    background: #E35C39;
+    color: #141C24;
 }
 
 .containerProject:hover {

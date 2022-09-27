@@ -7,9 +7,6 @@ const NavBar = () => {
     <nav>
       <div className={styles.container}>
         <HambMenu />
-        <Link to={'aboutMe'} spy={true} smooth={true} duration={500} className={styles.navbarName}>
-          Alejandro Santini
-        </Link>
         <ul className={styles.links}>
           <li>
             <Link
@@ -29,7 +26,7 @@ const NavBar = () => {
               activeClass={styles.active}
               spy={true}
               smooth={true}
-              offset={40}
+              offset={20}
               duration={500}
             >
               Skills
@@ -41,7 +38,7 @@ const NavBar = () => {
               activeClass={styles.active}
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-15}
               duration={500}
             >
               Projects

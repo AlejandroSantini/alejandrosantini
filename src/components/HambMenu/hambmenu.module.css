@@ -4,7 +4,7 @@
 
 .containerHamb .menu {
     right: 0;
-    background-color: #343434;
+    background-color: #141C24;
     padding-bottom: 22px;
     padding-top: 4px;
     border-radius: 0px 0px 3px 3px;
@@ -36,7 +36,7 @@
     }
 
     .containerHamb {
-        background-color: #343434;
+        background-color: #141C24;
         display: block;
         position: fixed;
         top: 5px;

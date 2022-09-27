@@ -19,6 +19,8 @@ const Skills = () => {
           <li>Mongo DB</li>
           <li>Git, GitHub</li>
           <li>Vue.js</li>
+          <li>React Native</li>
+          <li>Scrum, Trello, Astah</li>
           <li>Figma, Adobe Xd</li>
         </ul>
       </div>
@@ -27,7 +29,7 @@ const Skills = () => {
           Soft Skills <FontAwesomeIcon className={styles.icon} icon={faPeopleGroup} />
         </h4>
         <ul>
-          <li>Agile Methodologies (Scrum)</li>
+          <li>Agile Methodologies</li>
           <li>Teamwork</li>
           <li>Adaptability and Flexibility</li>
           <li>Communication</li>
