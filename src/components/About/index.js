@@ -16,8 +16,9 @@ const AboutMe = () => {
           </h4>
         </div>
         <p>
-          I am <span>Alejandro Santini</span>. Information Systems Engineering student. Passionate
-          about technology. I like challenges and want to learn new tools to improve in development.
+          I am <span>Alejandro Santini</span>. Software Developer and Advanced student of
+          Information Systems Engineering. I believe that software is a very important tool that can
+          optimize many processes in organizations.
         </p>
         <a href={'/AlejandroSantiniCV.pdf'} download="Alejandro Santini CV.pdf">
           Download CV
