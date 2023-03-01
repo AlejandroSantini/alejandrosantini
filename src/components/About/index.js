@@ -2,7 +2,7 @@ import img from '../../assets/images/developer.png';
 import styles from './about.module.css';
 
 const AboutMe = () => {
-  const constantedeprueba = 1
+  const constantedeprueba = "chau";
   console.log(constantedeprueba)
   return (
     <section id="aboutMe" className={styles.container}>
