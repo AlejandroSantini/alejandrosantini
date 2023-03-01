@@ -2,6 +2,8 @@ import img from '../../assets/images/developer.png';
 import styles from './about.module.css';
 
 const AboutMe = () => {
+  const constantedeprueba = 1
+  console.log(constantedeprueba)
   return (
     <section id="aboutMe" className={styles.container}>
       <img src={img} alt="Developer image" />
