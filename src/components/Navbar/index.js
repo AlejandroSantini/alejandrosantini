@@ -45,6 +45,18 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
+            <Link
+              to={'experience'}
+              activeClass={styles.active}
+              spy={true}
+              smooth={true}
+              offset={20}
+              duration={500}
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
             <Link to={'contact'} spy={true} smooth={true} offset={0} duration={500}>
               Contact
             </Link>

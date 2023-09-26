@@ -11,12 +11,12 @@ const Skills = () => {
         </h4>
         <ul>
           <li>English B1 Intermediate</li>
-          <li>Javascript</li>
+          <li>Javascript, Python + Fast API</li>
           <li>React.js + Router, Redux, Forms</li>
           <li>HTML, CSS</li>
           <li>Node.js, NPM, Express.js, JOI</li>
           <li>API REST, Postman, Jest</li>
-          <li>Mongo DB</li>
+          <li>Mongo DB, SQL</li>
           <li>Git, GitHub</li>
           <li>Vue.js</li>
           <li>React Native</li>
