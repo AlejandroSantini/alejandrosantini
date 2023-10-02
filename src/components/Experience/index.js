@@ -10,13 +10,13 @@ const Experience = () => {
       </h3>
       <div>
         <div className={styles.containerWork}>
-          <p>02/2023 - Present</p>
+          <p>11/2021 - Present</p>
           <h5>Frontend Developer</h5>
           <h6>Fortisoft</h6>
           <p>
-            • I do frontend tasks for clients in the US, I have been working on this project for
-            months in which I use technologies such as React.js, CSS, Material UI, Mapbox, Context,
-            among others. In addition to the English language to communicate with the client.
+            • I worked in GIS (Geographic Information System) as frontend developer, at USA company
+            using the next technologies: React.js, CSS, Material UI, Mapbox, Context, among others.
+            In addition to the English language to communicate with the client.
           </p>
         </div>
         <div className={styles.containerWork}>
@@ -26,11 +26,11 @@ const Experience = () => {
           <p>• In this project I did some tasks with Python, AWS, Snowflake, SQL, among others.</p>
         </div>
         <div className={styles.containerWork}>
-          <p>10/2022 - 12/2022</p>
+          <p>10/2020 - 11/2021</p>
           <h5>Frontend Developer</h5>
           <h6>Ingenieria SCH SRL</h6>
           <p>
-            • Software developer for traffic lights (frontend). In this job I use Javascript, React,
+            • Frontend developer in a traffic light system. In this job I use Javascript, React,
             Rest API, HTML, CSS, Postman.
           </p>
         </div>
