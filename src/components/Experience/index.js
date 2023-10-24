@@ -10,7 +10,7 @@ const Experience = () => {
       </h3>
       <div>
         <div className={styles.containerWork}>
-          <p>11/2021 - Present</p>
+          <p>01/2023 - Present</p>
           <h5>Frontend Developer</h5>
           <h6>Fortisoft</h6>
           <p>
@@ -26,7 +26,7 @@ const Experience = () => {
           <p>• In this project I did some tasks with Python, AWS, Snowflake, SQL, among others.</p>
         </div>
         <div className={styles.containerWork}>
-          <p>10/2020 - 11/2021</p>
+          <p>06/2022 - 12/2022</p>
           <h5>Frontend Developer</h5>
           <h6>Ingenieria SCH SRL</h6>
           <p>

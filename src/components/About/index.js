@@ -16,9 +16,9 @@ const AboutMe = () => {
           </h4>
         </div>
         <p>
-          I am <span>Alejandro Santini</span>. Software Developer with more than 3 years of
-          experience as a Frontend Developer. Currently advanced student of Software Engineering. I
-          believe that software is a very important tool that can optimize many processes.
+          I am <span>Alejandro Santini</span>. Software Developer with 2 years of experience as a
+          Frontend Developer. Currently advanced student of Software Engineering. I believe that
+          software is a very important tool that can optimize many processes.
         </p>
         <a href={'/AlejandroSantiniCV.pdf'} download="Alejandro Santini CV.pdf">
           Download CV
