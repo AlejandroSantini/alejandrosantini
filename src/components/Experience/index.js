@@ -9,6 +9,17 @@ const Experience = () => {
         Experience <FontAwesomeIcon className={styles.icon} icon={faComputer} />
       </h3>
       <div>
+         <div className={styles.containerWork}>
+          <p>10/2023 - Present</p>
+          <h5>Frontend Developer</h5>
+          <h6>Gearthlogic</h6>
+          <p>
+            • In the currently project we collect information and display relevant information to
+            users in software dedicated to school safety for US customers. Using the next
+            technologies: React.js, CSS, Material UI, MuiCharts, among others. In addition to the
+            English language to communicate with the client.
+          </p>
+        </div>
         <div className={styles.containerWork}>
           <p>01/2023 - Present</p>
           <h5>Frontend Developer</h5>
